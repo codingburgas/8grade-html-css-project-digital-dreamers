@@ -188,7 +188,7 @@ header {
   background-color: #e65700;
 }
 footer {
-  background:linear-gradient(to top, #000000, #333538) #333538;
+  background:linear-gradient(to top, #000000, #333538);
   color: white;
   text-align: center;
   padding: 20px 0;
