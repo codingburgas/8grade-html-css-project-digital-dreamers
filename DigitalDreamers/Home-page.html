@@ -7,7 +7,18 @@
   <link rel="stylesheet" href="Home-page.css" />
 </head>
 <body>
-
+  <section>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#car-section">Latest Inventory</a></li>
+          <li><a href="#hero">Find Your Perfect Ride</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+</section>
   
   <section class="hero">
     <div class="overlay">
@@ -16,29 +27,28 @@
         <h1>Find Your Perfect Ride</h1>
         <p>✓ No Hidden Fees ✓ Free Cancellation ✓ 24/7 Support</p>
         <form class="search-box">
-          <p>Place of hire</p>
-          <input type="text" placeholder="Select rental location" />
-          <input type="date" />
-          <p>Place of return</p>
-          <input type="text" placeholder="Select return location" />
-          <input type="date" />
-          <button type="submit">Search now</button>
+            <select required>
+            <option value="" enabled selected>Select a place of hire</option>
+            <option value="Sofia">Sofia near the Airport</option>
+            <option value="Plovdiv">Plovdiv near the Airport </option>
+            <option value="Burgas">Burgas near the Airport</option>
+            <option value="Varna">Varna near the Airport</option>
+            </select>
+          <input type="date" required />
+          <p>----------------------------------------------------------------------------------------------------</p>
+          <select required>
+          <option value="" enabled selected>Select a place of return</option>
+          <option value="Sofia">Sofia near the Airport</option>
+          <option value="Plovdiv">Plovdiv near the Airport </option>
+          <option value="Burgas">Burgas near the Airport</option>
+          <option value="Varna">Varna near the Airport</option>
+            </select>
+          <input type="date" required />
+          <a href="search-now.html"><button type="submit">Search now</button></a>
         </form>
       </div>
     </div>
   </section>
-
-  <section>
-      <header>
-        <nav>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-        </nav>
-      </header>
-  </section>
-  
 
   <section class="car-section">
     <h2>Latest Inventory</h2>
@@ -56,8 +66,12 @@
         <button class="book-btn">Book Now</button>
       </div>
       <div class="car-box">
-        <img src="https://via.placeholder.com/300x180" alt="Car 3" style="width: 100%; height: auto;">
-        <h3>Compact</h3>
+        <img src="Golf8R.png" alt="Car 3" style="width: 110%; height: auto;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Golf 8R</h3>
         <p class="price">$60 / day</p>
         <button class="book-btn">Book Now</button>
       </div>
@@ -80,6 +94,19 @@
         <button class="book-btn">Book Now</button>
       </div>
     </div>
+  </section>
+
+  <section class>
+      <footer>
+        <div class="footer-content">
+          <img src="logos-removebg-preview.png" alt="" width="8%" height="auto">
+          <ol class="footer-links">
+        <li><a href="#">Latest Inventory</a></li>
+        <li><a href="#">Find your perfect ride</a></li>
+        <li><a href="#">Contact Us</a></li>
+          </ol>
+        </div>
+      </footer>
   </section>
 </body>
 </html>
