@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="IMG/digitaldreamers-removebg-preview.png" alt="AutoDorm logo" width="450" height="350">
+    <img src="IMG/digitaldreamers-removebg-preview.png" alt="Digital Dreamers logo" width="450" height="350">
 </p>    
 
 ## 🚗 Digital Dreamers
