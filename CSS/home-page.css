@@ -38,6 +38,29 @@ select{
   align-items: center
 }
 
+.login-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.login-btn:active {
+  background-color: #003f7f;
+  transform: scale(0.95);
+}
 .logo-container{
   height: 100%;
   display: table;
