@@ -2,6 +2,11 @@
   margin: 0%;
   padding: 0%;
 }
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
 .hero {
   background: url(../IMG/Car-Hero_1920x800-ezgif.com-webp-to-jpg-converter.jpg) center/cover no-repeat;
   height: 70vh;
@@ -26,20 +31,48 @@ select{
   padding: 0%;
 }
 .header {
-  position: relative ;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to right, #393e42,  #524f50, #524f50, #524f50,  #172029, #172029, #888888, #888888);
-  padding: 0%;
+  background: linear-gradient(to right, #1f1f1f, #333538, #444, #333538, #1f1f1f);
   width: 100%;
-  height: 60px;
+  height: 70px;
   display: flex;
-  align-items: center
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.header .logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e0e0e0;
+  text-transform: uppercase;
+}
+
+.header .nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header .nav a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header .nav a:hover {
+  color: #1e3c72;
+  text-shadow: 0 0 5px #1e3c72
 }
 
 .login-btn {
-  background-color: #007bff;
+  background-color: #1e3c72;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -54,11 +87,11 @@ select{
   transform: translateY(-50%);
 }
 .login-btn:hover {
-  background-color: #0056b3;
+  background-color: #1e3c72;
 }
 
 .login-btn:active {
-  background-color: #003f7f;
+  background-color: #1e3c72;
   transform: scale(0.95);
 }
 .logo-container{
@@ -130,8 +163,8 @@ select{
 }
 
 .search-box button {
-  background-color: #00c853;
-  color: white;
+  background-color: #1e3c72;
+  color: #1e3c72;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -154,7 +187,7 @@ select{
 }
 
 .search-box button {
-  background-color: #00c853;
+  background-color: #1e3c72;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -220,7 +253,7 @@ select{
 }
 
 .book-btn {
-  background-color: #00c853;
+  background-color: #1e3c72;
   color: white;
   border: none;
   padding: 10px 18px;
@@ -235,21 +268,36 @@ select{
   background-color: #e65700;
 }
 footer {
-  background:linear-gradient(to top, #000000, #333538);
-  color: white;
+  background: linear-gradient(to top, #1a1a1a, #333538);
+  color: #e0e0e0;
   text-align: center;
-  padding: 20px 0;
-  font-family:'Montserrat', sans-serif;
+  padding: 30px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-top: 2px solid #444;
+  letter-spacing: 0.5px;
+  height: 100%;
 }
 
+footer p {
+  margin: 0;
+  line-height: 1.8;
+}
 
 footer p a {
-  color: #ffffff;
+  color: #1e3c72;
   text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+footer p a:hover {
+  color: #00a844;
+  text-shadow: 0 0 5px rgba(0, 200, 83, 0.7);
 }
 
 .log-in{
-  background-color: #00c853;
+  background-color: #1e3c72;
   color: white;
   cursor: pointer;
   border-radius: 6px;

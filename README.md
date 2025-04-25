@@ -1,11 +1,22 @@
 <p align="center">
     <img src="IMG/digitaldreamers-removebg-preview.png" alt="Digital Dreamers logo" width="450" height="350">
-</p>    
-##👨‍💻Digitgal Dreamers
+</p> 
+
+## 👨‍💻Digitgal Dreamers
 This web-based car rental platform lets users browse vehicles, book rentals easily, and manage reservations, showcasing web development skills in a realistic service simulation.
 
 ## 📘 Overview
 This web-based car rental platform lets users browse vehicles, book rentals easily, and manage reservations, showcasing web development skills in a realistic service simulation.
+
+## 🛠️ Technologies Used
+<table>
+  <tr>
+    <td><img src="IMG/htmlLogo.png" width="200"/></td>
+    <td><img src="IMG/cssLogo.png" width="200"/></td>
+    <td><img src="IMG/teamsLogo.png" width="300"></td>
+    <td><img src="IMG/GitHub.png" width="300"></td>
+  </tr>
+</table>
 
 ## 📄 Pages Included
 - **Home Page** – Introduction to the car rental service
@@ -22,14 +33,8 @@ This web-based car rental platform lets users browse vehicles, book rentals easi
 - Footer with contact info, navigation to the other pages and social media links
 - LogIn and Register
 
-## 🛠️ Technologies Used
-<table>
-  <tr>
-    <td><img src="IMG/htmlLogo.png" width="200"/></td>
-    <td><img src="IMG/cssLogo.png" width="200"/></td>
-    <td><img src="IMG/teamsLogo.png" width="300"></td>
-  </tr>
-</table>
+## 📅 Date
+April 2025
 
 ## 📌 Notes
 This project was created for educational purposes only and is not intended for commercial use.
