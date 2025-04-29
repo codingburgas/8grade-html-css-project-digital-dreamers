@@ -2,7 +2,7 @@
     <img src="IMG/digitaldreamers-removebg-preview.png" alt="Digital Dreamers logo" width="450" height="350">
 
 
-## 👨‍💻Digitgal Dreamers
+## 👨‍💻Digital Dreamers
 This web-based car rental platform lets users browse vehicles, book rentals easily, and manage reservations, showcasing web development skills in a realistic service simulation.
 
 ## 📘 Overview
