@@ -307,3 +307,30 @@ footer p a:hover {
   transition: background-color 0.3s ease;
   font-weight: bold;
 }
+.nav-links {
+  display: flex;
+  gap: 15px; /* Space between buttons */
+  align-items: center;
+  justify-content: flex-end; /* Align buttons to the right */
+  margin-right: 105px; /* Add some spacing from the edge */
+}
+
+.nav-btn, .nav2-btn, .nav3-btn {
+  background-color: #1e3c72;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-btn:hover, .nav2-btn:hover, .nav3-btn:hover {
+  background-color: #00a844;
+}
+
+.nav-btn:active, .nav2-btn:active, .nav3-btn:active {
+  transform: scale(0.95);
+}
