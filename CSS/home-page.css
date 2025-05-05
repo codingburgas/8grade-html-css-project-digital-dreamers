@@ -327,7 +327,7 @@ footer p a:hover {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.nav-btn:hover, .nav2-btn:hover, .nav3-btn:hover {
+.nav-btn:hover, .nav2-btn:hover, .nav3-btn:hover, .login-btn:hover {
   background-color: #00a844;
 }
 
