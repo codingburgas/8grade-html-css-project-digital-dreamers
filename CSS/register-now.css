@@ -166,3 +166,13 @@ body {
   .nav-btn:active, .nav2-btn:active, .nav3-btn:active {
     transform: scale(0.95);
   }
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    resize: none; 
+  }
