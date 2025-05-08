@@ -1,153 +1,163 @@
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #212529;
-    background-image: url('../IMG/copy.jpg');
-    background-size: cover;
-    background-position: center;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #212529;
+  background-image: url('../IMG/copy.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .registration-form {
-    background: #ffffff;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .registration-form:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .registration-form h2 {
-    margin-bottom: 30px;
-    font-size: 28px;
-    text-align: center;
-    color: #1e3c72;
-    font-weight: 700;
-    letter-spacing: 1px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-align: center;
+  color: #1e3c72;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .registration-form label {
-    display: block;
-    font-weight: 600;
-    color: #555;
+  display: block;
+  font-weight: 600;
+  color: #555;
 }
 
 .registration-form input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 14px;
-    transition: border-color 0.3s ease;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
 }
 
 .registration-form input:focus {
-    border-color: #1e3c72;
-    outline: none;
-    box-shadow: 0 0 5px #1e3c72;
+  border-color: #1e3c72;
+  outline: none;
+  box-shadow: 0 0 5px #1e3c72;
 }
 
 .registration-form button {
-    width: 105%;
-    padding: 12px;
-    justify-content: center;
-    background-color: #1e3c72;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 105%;
+  padding: 12px;
+  justify-content: center;
+  background-color: #1e3c72;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .registration-form button:hover {
-    background-color: #1e3c72;
-    transform: translateY(-2px);
+  background-color: #1e3c72;
+  transform: translateY(-2px);
 }
 
 .registration-form button:active {
-    background-color: #1e3c72;
-    transform: translateY(0);
-}
-.header {
-    position: relative; /* Determines the header's position */
-    top: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(to right, #1f1f1f, #333538, #444, #333538, #1f1f1f);
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 999; /* Ensures the header stays above other elements */
-  }
-  
-  .header .logo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #e0e0e0;
-    text-transform: uppercase;
-  }
-  
-  .header .nav {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .header .nav a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #e0e0e0;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .header .nav a:hover {
-    color: #1e3c72;
-    text-shadow: 0 0 5px #1e3c72;
-  }
-  .logo-container {
-    height: 100%;
-    display: table;
-    float: left;
-  }
-  
-  .logo-container h1 {
-    color: white;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-  }
-  
-  .logo-container span {
-    font-weight: 10000;
-  }
-  .nav-links {
-  display: flex;
-  gap: 15px; /* Space between buttons */
-  align-items: center;
-  justify-content: flex-end; /* Align buttons to the right */
-  margin-right: 105px; /* Add some spacing from the edge */
+  background-color: #1e3c72;
+  transform: translateY(0);
 }
 
-.nav-btn, .nav2-btn, .nav3-btn {
+.header {
+  position: relative;
+  /* Determines the header's position */
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #1f1f1f, #333538, #444, #333538, #1f1f1f);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  /* Ensures the header stays above other elements */
+}
+
+.header .logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e0e0e0;
+  text-transform: uppercase;
+}
+
+.header .nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header .nav a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header .nav a:hover {
+  color: #1e3c72;
+  text-shadow: 0 0 5px #1e3c72;
+}
+
+.logo-container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo-container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.logo-container span {
+  font-weight: 10000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  /* Space between buttons */
+  align-items: center;
+  justify-content: flex-end;
+  /* Align buttons to the right */
+  margin-right: 105px;
+  /* Add some spacing from the edge */
+}
+
+.nav-btn,
+.nav2-btn,
+.nav3-btn {
   background-color: #1e3c72;
   color: white;
   padding: 10px 20px;
@@ -161,89 +171,111 @@ body {
 
 
 
-.nav-btn:active, .nav2-btn:active, .nav3-btn:active {
+.nav-btn:active,
+.nav2-btn:active,
+.nav3-btn:active {
   transform: scale(0.95);
 }
+
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(to right, #1f1f1f, #333538, #444, #333538, #1f1f1f);
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-  }
-  
-  
-  .logo-container {
-    height: 100%;
-    display: table;
-    float: left;
-  }
-  
-  .logo-container h1 {
-    color: white;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-  }
-  
-  .logo-container span {
-    font-weight: 10000;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 25px; /* Space between buttons */
-    align-items: center;
-    justify-content: flex-end; /* Align buttons to the right */
-    margin-right: 105px; /* Add some spacing from the edge */
-  }
-  
-  .nav-btn, .nav2-btn, .nav3-btn {
-    background: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: color 0.3s ease, transform 0.2s ease;
-    border: none;
-    padding: 0;
-  }
-  
-  .nav-btn:hover, .nav2-btn:hover, .nav3-btn:hover {
-    color: #15c1ff;
-  }
-  
-  .nav-btn:active, .nav2-btn:active, .nav3-btn:active {
-    transform: scale(0.95);
-  }
-  
-  .login-btn {
-    background-color: #1e3c72;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .login-btn:hover {
-    background-color: #00a844;
-  }
-  
-  .login-btn:active {
-    background-color: #1e3c72;
-    transform: scale(0.95);
-  }
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #1f1f1f, #333538, #444, #333538, #1f1f1f);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+
+.logo-container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo-container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.logo-container span {
+  font-weight: 10000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  /* Space between buttons */
+  align-items: center;
+  justify-content: flex-end;
+  /* Align buttons to the right */
+  margin-right: 105px;
+  /* Add some spacing from the edge */
+}
+
+.nav-btn,
+.nav2-btn,
+.nav3-btn {
+  background: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+  border: none;
+  padding: 0;
+}
+
+.nav-btn:hover,
+.nav2-btn:hover,
+.nav3-btn:hover {
+  color: #15c1ff;
+}
+
+.nav-btn:active,
+.nav2-btn:active,
+.nav3-btn:active {
+  transform: scale(0.95);
+}
+
+.login-btn {
+  background-color: #1e3c72;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #00a844;
+}
+
+.login-btn:active {
+  background-color: #1e3c72;
+  transform: scale(0.95);
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  resize: none;
+}

@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rent A Car</title>
   <link rel="stylesheet" href="CSS/home-page.css" />
+  <link rel="stylesheet" href="CSS/header.css" />
 </head>
+
 <body>
 
-<section class="header"> 
-  <div class="logo-container">
-    <h1>Royal<span>Ride</span></h1>
-  </div>
-  
-</section>
+  <section class="header">
+    <div class="logo-container">
+      <h1>Royal<span>Ride</span></h1>
+    </div>
+    <div class="nav-links">
+      <a href="contact-us.html"><button class="nav-btn">Contact Us</button></a>
+      <a href="our-garage.html"><button class="nav2-btn">Our Garage</button></a>
+      <a href="register-now.html"><button class="nav3-btn">Register Now</button></a>
+      <a href="login.html"><button class="login-btn">Login</button></a>
+    </div>
+  </section>
 
-</section>
+  </section>
   <section class="hero">
     <div class="overlay">
       <div class="hero-content">
-        <img div="hero-logo" src="IMG/RoyalRide-logo-removebg-preview.png" alt="Brand Logo" class="hero-logo" width="auto" height="auto"/>
+        <img div="hero-logo" src="IMG/RoyalRide-logo-removebg-preview.png" alt="Brand Logo" class="hero-logo"
+          width="auto" height="auto" />
         <h1>Find Your Perfect Ride</h1>
         <p>✓ No Hidden Fees ✓ Free Cancellation ✓ 24/7 Support</p>
         <form class="search-box">
-            <select required>
+          <select required>
             <option value="" enabled selected>Select a place of hire</option>
             <option value="Sofia">Sofia near the Airport</option>
             <option value="Plovdiv">Plovdiv near the Airport </option>
             <option value="Burgas">Burgas near the Airport</option>
             <option value="Varna">Varna near the Airport</option>
-            </select>
+          </select>
           <input type="date" required />
           <p>----------------------------------------------------------------------------------------------------</p>
           <select required>
-          <option value="" enabled selected>Select a place of return</option>
-          <option value="Sofia">Sofia near the Airport</option>
-          <option value="Plovdiv">Plovdiv near the Airport </option>
-          <option value="Burgas">Burgas near the Airport</option>
-          <option value="Varna">Varna near the Airport</option>
-            </select>
+            <option value="" enabled selected>Select a place of return</option>
+            <option value="Sofia">Sofia near the Airport</option>
+            <option value="Plovdiv">Plovdiv near the Airport </option>
+            <option value="Burgas">Burgas near the Airport</option>
+            <option value="Varna">Varna near the Airport</option>
+          </select>
           <input type="date" required />
-          <a href="search-now.html"><button type="button" >Search now</button></a>
+          <a href="search-now.html"><button type="button">Search now</button></a>
         </form>
       </div>
     </div>
@@ -71,16 +80,17 @@
   </section>
 
   <section>
-      <footer>
-        <div class="footer-content">
-          <img src="IMG/logos-removebg-preview.png" alt="" width="8%" height="auto">
-          <ol class="footer-links">
+    <footer>
+      <div class="footer-content">
+        <img src="IMG/logos-removebg-preview.png" alt="" width="8%" height="auto">
+        <ol class="footer-links">
           <li><a href="#">Latest Inventory</a></li>
           <li><a href="#">Find your perfect ride</a></li>
           <li><a href="#">Contact Us</a></li>
-          </ol>
-        </div>
-      </footer>
+        </ol>
+      </div>
+    </footer>
   </section>
 </body>
+
 </html>
