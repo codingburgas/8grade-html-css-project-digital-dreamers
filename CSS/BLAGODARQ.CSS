@@ -4,13 +4,13 @@ body {
     background: linear-gradient(to right, #f8f9fa, #e3f2fd);
     color: #333;
   }
-  
+ 
   .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
   }
-  
+ 
   header {
     background: #006eff;
     color: rgb(0, 0, 0);
@@ -18,16 +18,16 @@ body {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
-  
+ 
   header h1 {
     font-size: 32px;
   }
-  
+ 
   main {
     padding: 60px 20px;
     text-align: center;
   }
-  
+ 
   .thank-you-box {
     background: white;
     padding: 40px;
@@ -35,17 +35,17 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.8s ease;
   }
-  
+ 
   .thank-you-box h2 {
     color: #000000;
     margin-bottom: 10px;
   }
-  
+ 
   .thank-you-box p {
     font-size: 18px;
     margin-bottom: 30px;
   }
-  
+ 
   .modern-btn {
     display: inline-block;
     padding: 14px 28px;
@@ -58,12 +58,12 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-  
+ 
   .modern-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
   }
-  
+ 
   footer {
     background: #000000;
     color: white;
@@ -71,5 +71,4 @@ body {
     padding: 20px 0;
     margin-top: 40px;
   }
-  
-  
+ 
