@@ -33,11 +33,9 @@ body {
     display: flex;
     gap: 20px;
     margin-right: 10px; /* Optional: Adjust spacing from the right */
-    margin-left: auto; /* Pushes the nav bar to the right */
 }
 
 .header .nav a {
-    margin-left: auto; /* Pushes the nav bar to the right */
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #e0e0e0;
