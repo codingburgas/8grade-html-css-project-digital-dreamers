@@ -155,16 +155,12 @@ footer p a:hover {
 }
 
 
-
-.nav-btn:active,
-.nav2-btn:active,
-.nav3-btn:active {
-  transform: scale(0.95);
-}
-.login-btn:hover {
-  background-color: #082054;
-  transform: scale(1.02);
-
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 105px;
 }
 .nav-btn,
 .nav2-btn,
@@ -176,7 +172,7 @@ footer p a:hover {
   cursor: pointer;
   transition: color 0.3s ease, transform 0.2s ease;
   border: none;
-  padding: 10px;
+  padding: 0;
 }
 
 .nav-btn:hover,
@@ -185,3 +181,16 @@ footer p a:hover {
   color: #15c1ff;
 }
 
+.nav-btn:active,
+.nav2-btn:active,
+.nav3-btn:active {
+  transform: scale(0.95);
+}
+.logo-container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
