@@ -1,281 +1,175 @@
+/* General body styling */
 body {
-  font-family: 'Roboto', Arial, sans-serif;
-  background-color: #f8f9fa;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  color: #212529;
-  background-image: url('../IMG/copy.jpg');
-  background-size: cover;
-  background-position: center;
+  font-family: 'Roboto', Arial, sans-serif; /* Modern sans-serif font */
+  background-color: #f8f9fa; /* Light gray background */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Flexbox layout for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  color: #212529; /* Dark gray text color */
+  background-image: url('../IMG/copy.jpg'); /* Background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
 }
 
+/* Styling for the registration form container */
 .registration-form {
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #ffffff; /* White background */
+  padding: 40px; /* Add padding inside the form */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 400px; /* Fixed width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
 }
 
+/* Hover effect for the registration form */
 .registration-form:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px); /* Slight upward movement */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
 }
 
+/* Styling for the form heading */
 .registration-form h2 {
-  margin-bottom: 30px;
-  font-size: 28px;
-  text-align: center;
-  color: #1e3c72;
-  font-weight: 700;
-  letter-spacing: 1px;
+  margin-bottom: 30px; /* Space below the heading */
+  font-size: 28px; /* Larger font size */
+  text-align: center; /* Center-align text */
+  color: #1e3c72; /* Blue text color */
+  font-weight: 700; /* Bold text */
+  letter-spacing: 1px; /* Add spacing between letters */
 }
 
+/* Styling for form labels */
 .registration-form label {
-  display: block;
-  font-weight: 600;
-  color: #555;
+  display: block; /* Block display for labels */
+  font-weight: 600; /* Semi-bold text */
+  color: #555; /* Medium gray text color */
 }
 
+/* Styling for input fields */
 .registration-form input {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
-  transition: border-color 0.3s ease;
+  width: 100%; /* Full width of the form */
+  padding: 12px; /* Add padding inside the input */
+  margin-bottom: 20px; /* Space below each input */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 14px; /* Font size for input text */
+  transition: border-color 0.3s ease; /* Smooth transition for focus effects */
 }
 
+/* Focus effect for input fields */
 .registration-form input:focus {
-  border-color: #1e3c72;
-  outline: none;
-  box-shadow: 0 0 5px #1e3c72;
+  border-color: #1e3c72; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px #1e3c72; /* Subtle blue glow */
 }
 
+/* Styling for the submit button */
 .registration-form button {
-  width: 105%;
-  padding: 12px;
-  justify-content: center;
-  background-color: #1e3c72;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 105%; /* Slightly wider than the form */
+  padding: 12px; /* Add padding inside the button */
+  justify-content: center; /* Center-align text */
+  background-color: #1e3c72; /* Blue background */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px; /* Font size for button text */
+  font-weight: 600; /* Semi-bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
 }
 
+/* Hover effect for the submit button */
 .registration-form button:hover {
-  background-color: #082054;
-  transform: translateY(-2px);
+  background-color: #082054; /* Darker blue background */
+  transform: translateY(-2px); /* Slight upward movement */
 }
 
+/* Active effect for the submit button */
 .registration-form button:active {
-  background-color: #1e3c72;
-  transform: translateY(0);
+  background-color: #1e3c72; /* Original blue background */
+  transform: translateY(0); /* Reset position */
 }
 
+/* Styling for the header */
 .header {
-  position: relative;
-  /* Determines the header's position */
-  top: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to right, #1f1f1f, #333538, #444, #333538, #1f1f1f);
-  width: 100%;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 999;
-  /* Ensures the header stays above other elements */
+  position: relative; /* Position relative to the page */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  background: linear-gradient(to right, #1f1f1f, #333538, #444, #333538, #1f1f1f); /* Gradient background */
+  width: 100%; /* Full width */
+  height: 70px; /* Fixed height */
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  z-index: 999; /* Ensure it stays above other elements */
 }
 
+/* Styling for the logo */
 .header .logo {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: #e0e0e0;
-  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; /* Modern sans-serif font */
+  font-size: 24px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #e0e0e0; /* Light gray text color */
+  text-transform: uppercase; /* Uppercase text */
 }
 
+/* Styling for navigation links */
 .header .nav {
-  display: flex;
-  gap: 20px;
+  display: flex; /* Flexbox layout */
+  gap: 20px; /* Space between links */
 }
 
+/* Styling for individual navigation links */
 .header .nav a {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  color: #e0e0e0;
-  text-decoration: none;
-  transition: color 0.3s ease;
+  font-family: 'Montserrat', sans-serif; /* Modern sans-serif font */
+  font-size: 16px; /* Font size for links */
+  color: #e0e0e0; /* Light gray text color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth hover effect */
 }
 
+/* Hover effect for navigation links */
 .header .nav a:hover {
-  color: #1e3c72;
-  text-shadow: 0 0 5px #1e3c72;
+  color: #1e3c72; /* Blue text color on hover */
+  text-shadow: 0 0 5px #1e3c72; /* Subtle blue glow */
 }
 
-.logo-container {
-  height: 100%;
-  display: table;
-  float: left;
-}
-
-.logo-container h1 {
-  color: white;
-  height: 100%;
-  display: table-cell;
-  vertical-align: middle;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-}
-
-.logo-container span {
-  font-weight: 10000;
-}
-
-.nav-links {
-  display: flex;
-  gap: 15px;
-  /* Space between buttons */
-  align-items: center;
-  justify-content: flex-end;
-  /* Align buttons to the right */
-  margin-right: 105px;
-  /* Add some spacing from the edge */
-}
-
-.nav-btn,
-.nav2-btn,
-.nav3-btn {
-  background-color: #1e3c72;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-
-
-.nav-btn:active,
-.nav2-btn:active,
-.nav3-btn:active {
-  transform: scale(0.95);
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to right, #1f1f1f, #333538, #444, #333538, #1f1f1f);
-  width: 100%;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 999;
-}
-
-
-.logo-container {
-  height: 100%;
-  display: table;
-  float: left;
-}
-
-.logo-container h1 {
-  color: white;
-  height: 100%;
-  display: table-cell;
-  vertical-align: middle;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-}
-
-.logo-container span {
-  font-weight: 10000;
-}
-
-.nav-links {
-  display: flex;
-  gap: 25px;
-  /* Space between buttons */
-  align-items: center;
-  justify-content: flex-end;
-  /* Align buttons to the right */
-  margin-right: 105px;
-  /* Add some spacing from the edge */
-}
-
-.nav-btn,
-.nav2-btn,
-.nav3-btn {
-  background: none;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: color 0.3s ease, transform 0.2s ease;
-  border: none;
-  padding: 0;
-}
-
-.nav-btn:hover,
-.nav2-btn:hover,
-.nav3-btn:hover {
-  color: #15c1ff;
-}
-
-.nav-btn:active,
-.nav2-btn:active,
-.nav3-btn:active {
-  transform: scale(0.95);
-}
-
+/* Styling for the login button */
 .login-btn {
-  background-color: #1e3c72;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #1e3c72; /* Blue background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add padding inside the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for button text */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
 }
 
+/* Hover effect for the login button */
 .login-btn:hover {
-  background-color: #082054;
+  background-color: #082054; /* Darker blue background */
 }
 
+/* Active effect for the login button */
 .login-btn:active {
-  background-color: #1e3c72;
-  transform: scale(0.95);
+  background-color: #1e3c72; /* Original blue background */
+  transform: scale(0.95); /* Slightly shrink the button */
 }
 
+/* Styling for text areas */
 textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
-  transition: border-color 0.3s ease;
-  resize: none;
+  width: 100%; /* Full width of the form */
+  padding: 12px; /* Add padding inside the text area */
+  margin-bottom: 20px; /* Space below the text area */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 14px; /* Font size for text */
+  transition: border-color 0.3s ease; /* Smooth transition for focus effects */
+  resize: none; /* Disable resizing */
 }

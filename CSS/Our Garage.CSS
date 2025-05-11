@@ -1,93 +1,120 @@
+/* General body styling */
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    color: white;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Gradient background */
+    color: white; /* White text color for contrast */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center-align text */
 }
+
+/* Styling for the header */
 header {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    font-size: 24px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect for a frosted glass look */
+    padding: 20px; /* Add padding inside the header */
+    font-size: 24px; /* Larger font size */
+    letter-spacing: 2px; /* Add spacing between letters */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
 }
+
+/* Styling for the home link button */
 .home-link {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 20px;
-    background: #00c6ff;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: all 0.4s ease;
+    display: inline-block; /* Inline block for button-like appearance */
+    margin-top: 15px; /* Add space above the button */
+    padding: 12px 20px; /* Add padding inside the button */
+    background: #00c6ff; /* Bright blue background */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.4s ease; /* Smooth transition for hover effects */
 }
+
+/* Hover effect for the home link button */
 .home-link:hover {
-    background: #0072ff;
-    transform: scale(1.1);
+    background: #0072ff; /* Darker blue background on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
 }
+
+/* Styling for the cars container */
 .cars-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    padding: 30px;
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: center; /* Center items horizontally */
+    gap: 25px; /* Space between items */
+    padding: 30px; /* Add padding around the container */
 }
+
+/* Styling for individual car cards */
 .car-card {
-    background: rgba(255, 255, 255, 0.15);
-    padding: 20px;
-    border-radius: 12px;
-    width: 280px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    position: relative;
-    overflow: hidden;
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent background */
+    padding: 20px; /* Add padding inside the card */
+    border-radius: 12px; /* Rounded corners */
+    width: 280px; /* Fixed width for cards */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover effects */
+    position: relative; /* Position for pseudo-elements */
+    overflow: hidden; /* Hide overflow for hover effects */
 }
+
+/* Hover effect for car cards */
 .car-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
 }
+
+/* Styling for car card images */
 .car-card img {
-    width: 100%;
-    border-radius: 8px;
-    transition: all 0.3s ease-in-out;
+    width: 100%; /* Full width of the card */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
 }
+
+/* Hover effect for car card images */
 .car-card:hover img {
-    filter: brightness(0.8);
+    filter: brightness(0.8); /* Darken the image on hover */
 }
+
+/* Styling for car card titles */
 .car-card h2 {
-    margin: 15px 0 5px;
-    font-size: 22px;
-    font-weight: bold;
+    margin: 15px 0 5px; /* Add spacing around the title */
+    font-size: 22px; /* Font size for titles */
+    font-weight: bold; /* Bold text */
 }
+
+/* Styling for car card descriptions */
 .car-card p {
-    font-weight: bold;
-    font-size: 18px;
-    color: #ffd700;
+    font-weight: bold; /* Bold text */
+    font-size: 18px; /* Font size for descriptions */
+    color: #ffd700; /* Gold color for emphasis */
 }
+
+/* Styling for the glowing border effect on hover */
 .car-card::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    background: linear-gradient(45deg, rgba(255,255,255,0.2), transparent);
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    content: ""; /* Empty content for pseudo-element */
+    position: absolute; /* Position relative to the card */
+    top: -5px; /* Slightly outside the card */
+    left: -5px; /* Slightly outside the card */
+    width: 100%; /* Full width of the card */
+    height: 100%; /* Full height of the card */
+    border-radius: 12px; /* Match card's rounded corners */
+    background: linear-gradient(45deg, rgba(255,255,255,0.2), transparent); /* Gradient effect */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for hover */
 }
+
+/* Hover effect for the glowing border */
 .car-card:hover::before {
-    opacity: 1;
+    opacity: 1; /* Make the border visible */
 }
+
+/* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     .cars-container {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
     }
 }
