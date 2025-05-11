@@ -205,3 +205,6 @@ textarea {
 .nav3-btn:active {
   transform: scale(0.95);
 }
+.logo-container h1 {
+  color: white;
+}

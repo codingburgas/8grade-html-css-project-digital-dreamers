@@ -186,3 +186,11 @@ footer p a:hover {
 .nav3-btn:active {
   transform: scale(0.95);
 }
+.logo-container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
