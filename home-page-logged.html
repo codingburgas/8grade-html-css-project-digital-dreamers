@@ -1,57 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Declares the document type as HTML5 and sets the language to English -->
 
 <head>
   <meta charset="UTF-8" />
-  <!-- Specifies the character encoding as UTF-8 to support a wide range of characters -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Ensures the page is responsive and scales properly on different devices -->
   <title>Rent A Car</title>
-  <!-- Sets the title of the webpage, which appears in the browser tab -->
   <link rel="stylesheet" href="CSS/home-page.css" />
-  <!-- Links an external CSS file for styling the home page -->
   <link rel="stylesheet" href="CSS/header.css" />
-  <!-- Links an external CSS file for styling the header -->
 </head>
 
 <body>
-  <!-- The main content of the webpage starts here -->
-
   <section class="header">
-    <!-- Defines a section for the header -->
     <div class="logo-container">
       <h1>Royal<span>Ride</span></h1>
-      <!-- Displays the website's logo and name using a semantic <h1> tag -->
     </div>
     <div class="nav-links">
-      <!-- Contains navigation links for the website -->
       <a href="contact-us.html"><button class="nav-btn">Contact Us</button></a>
-      <!-- Link to the "Contact Us" page -->
       <a href="search-now.html"><button class="nav2-btn">Our Garage</button></a>
-      <!-- Link to the "Our Garage" page -->
       <a href="register-now.html"><button class="nav3-btn">Register Now</button></a>
-      <!-- Link to the "Register Now" page -->
     </div>
   </section>
 
   <section class="hero">
-    <!-- Defines a hero section for the main banner -->
     <div class="overlay">
-      <!-- Adds an overlay effect for the hero section -->
       <div class="hero-content">
-        <!-- Contains the content of the hero section -->
-        <img div="hero-logo" src="IMG/RoyalRide-logo-removebg-preview.png" alt="Brand Logo" class="hero-logo"
-          width="auto" height="auto" />
-        <!-- Displays the brand logo -->
+        <img div="hero-logo" src="IMG/RoyalRide-logo-removebg-preview.png" alt="Brand Logo" class="hero-logo" width="auto" height="auto" />
         <h1>Find Your Perfect Ride</h1>
-        <!-- Displays the main heading -->
         <p>✓ No Hidden Fees ✓ Free Cancellation ✓ 24/7 Support</p>
-        <!-- Displays a tagline with key benefits -->
         <form class="search-box">
-          <!-- Defines a search form -->
           <select required>
-            <!-- Dropdown for selecting a place of hire -->
             <option value="" enabled selected>Select a place of hire</option>
             <option value="Sofia">Sofia near the Airport</option>
             <option value="Plovdiv">Plovdiv near the Airport</option>
@@ -59,11 +36,8 @@
             <option value="Varna">Varna near the Airport</option>
           </select>
           <input type="date" required />
-          <!-- Input field for selecting a hire date -->
           <p>----------------------------------------------------------------------------------------------------</p>
-          <!-- Divider line -->
           <select required>
-            <!-- Dropdown for selecting a place of return -->
             <option value="" enabled selected>Select a place of return</option>
             <option value="Sofia">Sofia near the Airport</option>
             <option value="Plovdiv">Plovdiv near the Airport</option>
@@ -71,28 +45,19 @@
             <option value="Varna">Varna near the Airport</option>
           </select>
           <input type="date" required />
-          <!-- Input field for selecting a return date -->
           <a href="home-page-logged.html"><button type="button">Search now</button></a>
-          <!-- Button to navigate to the search results page -->
         </form>
       </div>
     </div>
   </section>
 
   <section class="car-section">
-    <!-- Defines a section for displaying the latest inventory -->
     <h2>Latest Inventory</h2>
-    <!-- Heading for the inventory section -->
     <div class="car-grid">
-      <!-- Creates a grid layout for displaying cars -->
       <div class="car-box">
-        <!-- Defines a box for a car -->
         <img src="IMG/C-Class2025-removebg-preview.png" alt="Car 1" style="width: 100%; height: auto;">
-        <!-- Displays an image of the car -->
         <h3>Mercedes S-Class 2025</h3>
-        <!-- Displays the car's name -->
         <a href="Mercedies.HTML"><button class="book-btn">Information</button></a>
-        <!-- Link to the car's information page -->
       </div>
       <div class="car-box">
         <img src="IMG/BMWM3.jpg" alt="Car 2" style="width: 125%; height: auto;">
@@ -112,12 +77,9 @@
 
   <section>
     <footer>
-      <!-- Defines the footer section -->
       <div class="footer-content">
         <img src="IMG/logos-removebg-preview.png" alt="Footer Logo" width="8%" height="auto">
-        <!-- Displays the footer logo -->
         <ol class="footer-links">
-          <!-- Creates an ordered list of footer links -->
           <li><a href="#">Latest Inventory</a></li>
           <li><a href="#">Find your perfect ride</a></li>
           <li><a href="#">Contact Us</a></li>
