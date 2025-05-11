@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Booking</title>
+    <link rel="stylesheet" href="/CSS/booking.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+</head>
+<body>
+  <section class="header">
+    <div class="logo-container">
+      <h1>Royal<span>Ride</span></h1>
+    </div>
+    <div class="nav-links">
+      <a href="pages/contact-us.html"><button class="nav-btn">Contact Us</button></a>
+      <a href="pages/search-now.html"><button class="nav2-btn">Our Garage</button></a>
+      <a href="pages/register-now.html"><button class="nav3-btn">Register
+          Now</button></a>
+      <a href="pages/login.html"><button class="login-btn">Login</button></a>
+    </div>
+  </section>
+
+    <div class="container">
+        <h1>Car Rental Booking</h1>
+        <form action="/submit-booking" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="car">Select Car</label>
+                <select id="car" name="car" required>
+                    <option value="">-- Select a Car --</option>
+                    <option value="sedan">Sedan</option>
+                    <option value="suv">SUV</option>
+                    <option value="convertible">Convertible</option>
+                    <option value="truck">Truck</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="pickup">Pick-Up Date</label>
+                <input type="date" id="pickup" name="pickup" required>
+            </div>
+            <div class="form-group">
+                <label for="dropoff">Drop-Off Date</label>
+                <input type="date" id="dropoff" name="dropoff" required>
+            </div>
+            <button type="submit" class="book-btn">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>

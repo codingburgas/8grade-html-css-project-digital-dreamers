@@ -11,18 +11,6 @@ body {
     padding: 0 20px;
   }
  
-  header {
-    background: #006eff;
-    color: rgb(0, 0, 0);
-    padding: 30px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
- 
-  header h1 {
-    font-size: 32px;
-  }
- 
   main {
     padding: 60px 20px;
     text-align: center;
