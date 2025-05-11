@@ -10,11 +10,9 @@ body {
 }
 
 .hero {
-  background-color: #ffffff;
-  height: 70vh;
+  background: url(../IMG/Car-Hero_1920x800-ezgif.com-webp-to-jpg-converter.jpg) center/cover no-repeat fixed;
+  height: 100vh;
   position: relative;
-  background-position: fixed;
-  background-attachment: fixed;
 }
 
 select {
